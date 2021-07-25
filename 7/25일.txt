@@ -1,0 +1,9 @@
+화살표 함수(arrow function)
+
+() => {함수내용//return}
+(매개변수) => {함수내용}
+(매개변수1,매개변수2) => {함수내용}
+
+화살표 함수의 유일한 문장이 'return'일 때 'return'과
+ 중괄호({})를 생략할 수 있다.
+ex: elements.map(element => element.length);
