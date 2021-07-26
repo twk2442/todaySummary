@@ -1,0 +1,6 @@
+React button onClick (버튼을 눌렀을 때 화면이동)
+
+window.location.href="주소";
+
+https://coding-hyeok.tistory.com/8
+
