@@ -1,0 +1,13 @@
+class 형 컴포넌트
+
+ex: class 컴포넌트이름 extends Componentp{
+    constructor(props){  //  필수    오직 constructor 내부에서만 state를 직접수정가능하다
+        super(props);  //    필수문법 
+        this.state ={state객체:값};
+    }
+    render(){
+        return(~~~~
+        ~~~
+        );
+    }
+}
