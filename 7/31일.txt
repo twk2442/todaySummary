@@ -1,0 +1,33 @@
+본문에서 (리턴)
+{변수(엘리먼트)} 사용가능
+변수에 컴포넌트 할당가능
+// 
+조건문 만들때ㅐ 팁
+JavaScript에서 true && expression은 항상 expression으로 평가되고 
+false && expression은 항상 false로 평가됩니다.
+따라서 && 뒤의 엘리먼트는 조건이 true일때 출력이 됩니다. 조건이 false라면 React는 무시합니다.
+
+JavaScript에서 map() 함수
+
+const array1 = [1, 4, 9, 16];
+
+// pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// expected output: Array [2, 8, 18, 32]
+
+
+//
+다중 입력 제어하기
+여러 input 엘리먼트를 제어해야할 때, 각 엘리먼트에 name 어트리뷰트를 추가하고 
+event.target.name 값을 통해 핸들러가 어떤 작업을 할 지 선택할 수 있게 해줍니다.
+
+주어진 input 태그의 name에 일치하는 state를 업데이트하기 위해 
+ES6의 computed property name 구문을 사용하고 있습니다.
+
+this.setState({
+  [name]: value
+});
+
+
